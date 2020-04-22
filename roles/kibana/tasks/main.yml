@@ -1,0 +1,20 @@
+---
+#
+# Installing Kibana
+#
+
+# Install Kibana
+
+- name: Install Kibana with apt
+  apt:
+    name: kibana
+    update_cache: yes
+
+# Configurations
+
+# Starting Kibana
+
+- name: Starting Kibana
+  service:
+    name: kibana
+    state: started

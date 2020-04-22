@@ -1,0 +1,7 @@
+---
+
+"logstash": {
+    "server_repository": "deb https://artifacts.elastic.co/packages/7.x/apt stable main",
+    "forwarder_repository": "deb [trusted=yes] http://packages.elasticsearch.org/logstashforwarder/debian stable main",
+    "geoip_download": "https://mirrors-cdn.liferay.com/geolite.maxmind.com/download/geoip/database/GeoLiteCityv6.dat.gz"
+}
